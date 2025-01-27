@@ -3,8 +3,8 @@
 
 
 int main() {
-    char num;
-    scanf("%d",&num)
-    printf("ASCII Value: %d",num);
+    char num='';
+    scanf("%c",&num)
+    printf("ASCII Value: %c",num);
     return 0;
 }
