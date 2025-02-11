@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int cost,sell;
+    int cost,sell,total;
     scanf("%d%d",&cost,&sell);
-    if(sell-cost> cost)
+total=sell - cost;
+    if(total> cost)
     {
         printf("Profit");
     }
-    else if(sell-cost<cost)
+    else if(total<cost)
 {
     printf("Loss");
 }
