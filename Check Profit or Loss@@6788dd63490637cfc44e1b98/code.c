@@ -8,12 +8,12 @@ total=sell - cost;
     {
         printf("Profit");
     }
-    else if(total<cost)
+    else if(total==cost)
 {
-    printf("Loss");
+    printf("No Profit No Loss");
 }
 else
 {
-    printf("No Profit No Loss");
+    printf("Loss");
 }
 }
