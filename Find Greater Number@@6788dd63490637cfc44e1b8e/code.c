@@ -5,11 +5,11 @@ int main()
     scanf("%d%d",&a,&b);
     if(a>b)
     {
-        printf("max = %d",a);
+        printf("%d",a);
     }
     else
      {
-        printf("max = %d",b);
+        printf("%d",b);
     }
 
 }
