@@ -7,19 +7,20 @@ int main()
     {
         printf("A");
     }
-    else if(num>=80);
+    else if(num>=80)
 {
     printf("B");
 }
- else if(num>=70);
+ else if(num>=70)
 {
     printf("C");
 }
- else if(num>=60);
+ else if(num>=60)
 {
     printf("D");
 }
-else{
+else
+{
     printf("F");
 }
 }
