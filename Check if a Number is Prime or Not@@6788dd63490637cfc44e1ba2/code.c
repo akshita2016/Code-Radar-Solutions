@@ -11,7 +11,7 @@ int main()
        break;
       }
     }
-    if(Jasoos==1)
+    if(Jasoos=1)
     {
         printf("Prime");
     }
