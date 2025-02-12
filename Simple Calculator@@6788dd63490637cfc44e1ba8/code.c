@@ -21,7 +21,7 @@ int main()
         value = a/b;
     }
     else
-    printf("not valid");
-
+   { printf("not valid");
+   }
     printf("%d",value);
 }
