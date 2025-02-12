@@ -8,23 +8,27 @@ int main()
  {  case '+':
     {
        value = a+b;
+        printf("%d",value);
        break;
     }
      case '-':
     {
         value = a-b;
+         printf("%d",value);
         break;
     }
      case '*':
     {
         value = a*b;
+         printf("%d",value);
         break;
     }
      case '/':
     {
         value = a/b;
+         printf("%d",value);
         break;
     }
  } 
-    printf("%d",value);
+   
 }
