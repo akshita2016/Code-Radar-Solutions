@@ -4,24 +4,23 @@ int main()
     int a,b,value;
     char c;
     scanf("%d%d%c",&a,&b,&c);
-    if(c=='+');
+    switch(c)
+ {  case '+':
     {
        value = a+b;
     }
-    else if(c=='-');
+     case '-':
     {
         value = a-b;
     }
-    else if(c=='*');
+     case '*':
     {
         value = a*b;
     }
-    else if(c=='/');
+     case '/':
     {
         value = a/b;
     }
-    else
-   { printf("not valid");
-   }
+   
     printf("%d",value);
 }
