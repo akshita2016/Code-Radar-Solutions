@@ -11,10 +11,10 @@ int main()
        break;
       }
     }
-    if(Jasoos=0)
+    if(Jasoos=1)
     {
-        printf("Prime");
+        printf("Not Prime");
     }
     else 
-    printf("Not Prime");
+    printf(" Prime");
 }
