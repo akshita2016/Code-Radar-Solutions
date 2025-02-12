@@ -13,8 +13,8 @@ int main()
     }
     if(Jasoos=0)
     {
-        printf("Not Prime");
+        printf("Prime");
     }
     else 
-    printf(" Prime");
+    printf("Not Prime");
 }
