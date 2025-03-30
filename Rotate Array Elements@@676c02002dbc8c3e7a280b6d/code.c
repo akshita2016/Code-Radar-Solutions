@@ -13,12 +13,12 @@ scanf("%d",&k);
 k=k%N;
 
 int temp[N];
-for(int i=0;i<N;i++)
+for(int i=0;i<=N;i++)
 {
     temp[(k+i)%N] =arr[i];
 }
 for(int i=0;i<N;i++)
 
-{printf("%d",temp[i]);
+{printf("%d\n",temp[i]);
 }
 }
