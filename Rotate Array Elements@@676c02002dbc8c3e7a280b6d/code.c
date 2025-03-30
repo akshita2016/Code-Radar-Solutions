@@ -1,5 +1,6 @@
 #include<stdio.h>
-int N;
+int main()
+{int N;
 scanf("%d",&N);
 
 int arr[N];
@@ -9,12 +10,15 @@ for(int i=0;i<=N;i++)
 }
 int k;
 scanf("%d",&k);
-int arr[k],len=arr.size();
-for(int i=0;i<=k;i++)
-{
-    arr[k+i] =arr[i];
-}
-for(int i=0;i<len -1;i++)
+k=k%N;
 
-{printf("%d",arr[i]);
+int temp[N];
+for(int i=0;i<N;i++)
+{
+    temp[(k+i)%N] =arr[i];
+}
+for(int i=0;i<N;i++)
+
+{printf("%d",temp[i]);
+}
 }
