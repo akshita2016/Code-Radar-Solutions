@@ -6,6 +6,7 @@ int isPrime(int num)
         {
             flag =1;
             break;
+            return 0;
         }
     }
 if(flag==0)
