@@ -17,12 +17,13 @@ for (int i=1;i<N;i++)
     {    max2=max;
         max =arr[i];
     }
-    else if (arr[i] > max2 && arr[i] != max)
+    else if (arr[i] > max2 && arr[i] < max)
      {
             max2 = arr[i]; 
         }
    
 }
+
 if (max2 == max || N==1) {
         printf("-1");
 }
