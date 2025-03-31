@@ -18,9 +18,9 @@ int main()
             result =i;
              printf("%d",result);
         }
-      
-    }
-   printf("-1");
+       printf("-1");
 
+    }
+  
 
 }
