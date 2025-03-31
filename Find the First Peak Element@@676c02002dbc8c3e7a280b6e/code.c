@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int N;
+    int N,peak=0;
     scanf("%d",&N);
     int arr[N];
     for(int i=0;i<N;i++)
@@ -12,7 +12,7 @@ int main()
     {
         if(arr[i-1]<arr[i] && arr[i]> arr[i+1])
         {
-            printf("%d",arr[i]);
+           peak = arr[i];
             
         }
         else
