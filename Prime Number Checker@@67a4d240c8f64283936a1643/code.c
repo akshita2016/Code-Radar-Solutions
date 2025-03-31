@@ -13,5 +13,5 @@ if(flag==0)
   printf("%d",1);
 }
 else 
-printf("0");
+printf("%d",0);
 }
