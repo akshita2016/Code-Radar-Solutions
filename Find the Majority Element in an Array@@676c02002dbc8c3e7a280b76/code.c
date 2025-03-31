@@ -32,9 +32,9 @@ int main()
         }
         freq[i] = count;
     }
-      if(count>N/2)
+      if(freq[i]>N/2)
     {
-        printf("%d",freq[i]);
+        printf("%d",arr[i]);
     }
     }
   
