@@ -9,7 +9,8 @@ int isPrime(int num)
             return 0;
         }
     }
-if(flag==0)
+    return 1;
+    if(flag==0)
 {
   printf("%d",1);
 }
