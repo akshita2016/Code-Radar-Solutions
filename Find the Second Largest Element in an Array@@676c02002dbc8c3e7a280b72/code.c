@@ -23,7 +23,7 @@ for (int i=1;i<N;i++)
         }
    
 }
-if (max2 == max && N<2) {
+if (max2 == max && N=1) {
         printf("-1");
 }
 else{
