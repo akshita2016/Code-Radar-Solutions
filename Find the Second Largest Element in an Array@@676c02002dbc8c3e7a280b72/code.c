@@ -12,13 +12,10 @@ int max=arr[0],max2=arr[0];
 for (int i=1;i<N;i++)
 {
     if (max<arr[i])
-    {
+    {    max2=max;
         max =arr[i];
     }
-    if(max2<arr[i] && max2<max)
-    {
-        max2 = arr[i];
-    }
+   
 }
 printf("%d",max2);
 }
