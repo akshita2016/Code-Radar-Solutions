@@ -18,5 +18,9 @@ int main()
         else
         return -1;
     }
+    if(peak!=0)
+    {
+        printf("%d",&peak);
+    }
 return 0;
 }
