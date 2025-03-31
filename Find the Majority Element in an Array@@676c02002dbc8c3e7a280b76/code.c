@@ -35,6 +35,7 @@ int main()
       if(freq[i]>N/2)
     {
         printf("%d",arr[i]);
+        return 0;
     }
     
    
