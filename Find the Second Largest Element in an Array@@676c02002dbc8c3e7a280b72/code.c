@@ -29,5 +29,7 @@ for (int i=1;i<N;i++)
 if (max2 == max) {
         printf("-1");
 }
+else{
 printf("%d",max2);
+}
 }
