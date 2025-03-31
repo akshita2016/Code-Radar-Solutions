@@ -19,6 +19,10 @@ for (int i=1;i<N;i++)
     {    max2=max;
         max =arr[i];
     }
+    else if (arr[i] > max2 && arr[i] != max)
+     {
+            max2 = arr[i]; 
+        }
    
 }
 printf("%d",max2);
