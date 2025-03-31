@@ -1,6 +1,6 @@
 int isPrime(int num)
 { int flag =0;
-    for(int i=2;i*i<=num;i++)
+    for(int i=2;i<num;i++)
     {
         if(num%i==0)
         {
@@ -10,7 +10,7 @@ int isPrime(int num)
     }
 if(flag==0)
 {
-  printf("1");
+  printf("%d",1);
 }
 else 
 printf("0");
