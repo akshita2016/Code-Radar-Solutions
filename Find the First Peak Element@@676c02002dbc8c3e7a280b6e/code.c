@@ -16,7 +16,7 @@ int main()
             break;
         }
         if (arr[N - 1] > arr[N - 2]) {
-        printf("%d", arr[N - 1]);
+        peak =arr[N-1];
         }
     }
     printf("%d",peak);
