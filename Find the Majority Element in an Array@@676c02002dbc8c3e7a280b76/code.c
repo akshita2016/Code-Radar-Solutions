@@ -35,7 +35,7 @@ int main()
     }
    if(count>N/2)
     {
-        printf("%d",freq[i]);
+        printf("%d",count);
     }
     else
     printf("-1");
