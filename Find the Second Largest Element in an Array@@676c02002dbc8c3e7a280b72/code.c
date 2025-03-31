@@ -25,5 +25,7 @@ for (int i=1;i<N;i++)
         }
    
 }
+if (max2 == arr[0]) {
+        printf("-1");
 printf("%d",max2);
 }
