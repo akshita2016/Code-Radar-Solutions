@@ -17,6 +17,6 @@ int main()
         }
         
     }
-    
+    printf("%d",peak);
 return 0;
 }
