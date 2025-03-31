@@ -1,4 +1,4 @@
-bool isPrime(int num)
+void isPrime(int num)
 { int flag =0;
     for(int i=2;i<num;i++)
     {
