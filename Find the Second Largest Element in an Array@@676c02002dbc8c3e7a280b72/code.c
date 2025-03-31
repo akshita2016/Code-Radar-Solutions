@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main()
 {
     int N ;
@@ -25,7 +26,7 @@ for (int i=1;i<N;i++)
         }
    
 }
-if (max2 == arr[0]) {
+if (max2 == max) {
         printf("-1");
 }
 printf("%d",max2);
