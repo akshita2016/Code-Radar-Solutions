@@ -12,7 +12,7 @@ int isPrime(int num)
 
     if(flag==0)
 {
-  printf("%d",1);
+  printf("1");
 }
 else 
 printf("%d",0);
