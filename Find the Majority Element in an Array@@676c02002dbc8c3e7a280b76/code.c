@@ -36,10 +36,10 @@ int main()
     {
         printf("%d",arr[i]);
     }
-     printf("-1");
+    
    
     }
   
-   
+    printf("-1");
    
 }
