@@ -18,6 +18,6 @@ int main()
   }
   for(int i=0;i<N;i++)
   {
-    scanf("%d",temp[i]);
+    printf("%d",temp[i]);
   }
 }
