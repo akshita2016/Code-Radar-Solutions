@@ -15,6 +15,7 @@ int main()
     {
         freq[i]=0;
     }
+
     for(int i=0;i<N;i++)
     {
         if(freq[i]=0)
@@ -26,7 +27,7 @@ int main()
             if(arr[i] == arr[j])
             {
                 count++;
-                freq[j] = -1;
+                freq[j] = 0;
             }
         }
         freq[i] = count;
