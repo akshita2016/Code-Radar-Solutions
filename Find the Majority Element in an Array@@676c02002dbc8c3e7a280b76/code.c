@@ -35,6 +35,8 @@ int main()
     {
         printf("%d",freq[i]);
     }
+    else
+    printf("-1");
     }
    
    
