@@ -10,8 +10,8 @@ void isPrime(int num)
     }
 if(flag==0)
 {
-    return 1;
+  printf("1");
 }
 else 
-return 0;
+printf("0");
 }
