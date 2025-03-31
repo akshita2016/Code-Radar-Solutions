@@ -5,7 +5,7 @@ int main()
     scanf("%d",&N);
     if(N<2)
     {
-        return -1;
+       printf("-1");
     }
     int arr[N];
     for(int i=0;i<N;i++)
