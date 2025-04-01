@@ -8,9 +8,9 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    int count =0;
     
-    int freq[N];
+    
+    int freq[1000]={0};
     for(int i=0;i<N;i++){
         freq[arr[i]]++;
     }
