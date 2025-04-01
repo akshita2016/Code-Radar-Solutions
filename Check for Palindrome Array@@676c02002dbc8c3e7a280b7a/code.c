@@ -9,14 +9,15 @@ int main ()
         scanf("%d",&arr[i]);
     }
     int N1=N;
-    while(N1!=0)
+    int isPalindrome =1;
+    for(in i=0;i<N/2;i++)
     {
-        r=arr[N1]%10;
-        rev = rev*10+r;
-        arr[N1]=arr[N1]/10;
-
+        if(arr[i] != arr[N-i-1])
+        {
+            isPalindrome =0;
+        }
     }
-    if(rev ==arr[ N])
+    if(isPalindrome)
     {
         printf("YES");
     }
