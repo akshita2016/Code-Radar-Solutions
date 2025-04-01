@@ -8,12 +8,13 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    int isPrime =0;
+   
     int count =0,num;
     for(int i =0;i<N;i++)
     { num = arr[i];
     if(num<2)
     continue;
+     int isPrime =0;
         for(int j=2;j*j<=num;j++)
         {
             if(num%j==0)
