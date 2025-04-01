@@ -14,7 +14,7 @@ int main()
     int r=0;
     for(int i=0;i<N;i++)
 
-    { 
+    { num =0;
          num =arr[i];
          while(num>0)
   {r=num%10;
