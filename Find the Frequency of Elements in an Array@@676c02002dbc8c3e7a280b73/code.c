@@ -11,11 +11,11 @@ int main()
     int count =0;
     
     int freq[N];
-    for(int i=0;i<n;i++){
+    for(int i=0;i<N;i++){
         freq[arr[i]]++;
     }
 
-    for(int i=0;i<n;i++){
+    for(int i=0;i<N;i++){
         if(freq[arr[i]]>0){
             printf("%d %d\n",arr[i],freq[arr[i]]);
             freq[arr[i]]=0;
