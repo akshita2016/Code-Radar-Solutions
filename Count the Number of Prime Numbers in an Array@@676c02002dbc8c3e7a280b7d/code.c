@@ -14,12 +14,12 @@ int main()
     { num = arr[i];
     if(num<2)
     continue;
-     int isPrime =0;
+     int isPrime =1;
         for(int j=2;j*j<=num;j++)
         {
             if(num%j==0)
             {
-              isPrime =1;
+              isPrime =0;
               
               break;
             }
