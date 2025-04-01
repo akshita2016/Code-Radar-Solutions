@@ -34,7 +34,7 @@ int main()
     }
     for(int i=0;i<N;i++)
     {
-   if(freq[i]!= -1) 
+   if(freq[i]!= 0) 
    {
     printf("%d: %d\n",arr[i],freq[i]);
    }
