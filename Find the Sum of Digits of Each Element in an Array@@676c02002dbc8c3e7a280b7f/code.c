@@ -11,7 +11,7 @@ int main()
     }
     int sum=0;
     int num=0;
-    int rev=0;
+    int r=0;
     for(int i=0;i<N;i++)
     {  num =arr[i];
     r=num%10;
