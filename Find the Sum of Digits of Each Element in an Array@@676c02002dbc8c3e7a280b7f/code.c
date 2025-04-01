@@ -18,7 +18,7 @@ int main()
          num =arr[i];
     r=num%10;
         sum =sum +r;
-        num/10;
+        num = num/10;
     }
     for(int i=0;i<N;i++)
     {
