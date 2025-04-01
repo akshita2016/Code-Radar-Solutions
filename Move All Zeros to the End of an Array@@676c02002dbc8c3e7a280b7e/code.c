@@ -12,12 +12,12 @@ int main()
     for(int i=0;i<N;i++)
     {
         if(arr[i]==0)
-        { temp =arr[N-i];
+        { temp =arr[N-i-1];
             arr[N-i]=arr[i];
             arr[i]= temp;
         }
     }
     for(int i=0;i<N;i++)
-   {printf("%d",arr[N]);
+   {printf("%d ",arr[N]);
    }
 }
