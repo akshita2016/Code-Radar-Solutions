@@ -10,7 +10,7 @@ int main()
     }
     
     
-    int freq[1000]={0};
+    int freq[1000];
     for(int i=0;i<N;i++){
         freq[arr[i]]++;
     }
