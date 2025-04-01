@@ -17,5 +17,7 @@ int main()
             arr[i]= temp;
         }
     }
-    printf("%d",arr[N]);
+    for(int i=0;i<N;i++)
+   {printf("%d",arr[N]);
+   }
 }
