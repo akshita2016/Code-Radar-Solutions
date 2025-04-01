@@ -11,12 +11,12 @@ int main ()
     int N1=N;
     while(N1!=0)
     {
-        r=N1%10;
+        r=arr[N1]%10;
         rev = rev*10+r;
-        N1=N1/10;
+        arr[N1]=arr[N1]/10;
 
     }
-    if(rev == N)
+    if(rev ==arr[ N])
     {
         printf("YES");
     }
