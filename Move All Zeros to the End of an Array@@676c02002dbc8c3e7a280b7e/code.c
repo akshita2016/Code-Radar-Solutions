@@ -9,17 +9,15 @@ int main()
         scanf("%d",&arr[i]);
     }
     int temp=0;
-    int j=0;
     for(int i=0;i<N;i++)
     {
-        if(arr[i]!=0)
-        { temp =arr[i];
-            arr[i]=arr[j];
-            arr[j]= temp;
-            j++;
+        if(arr[i]==0)
+        { temp =arr[N-i-1];
+            arr[N-i-1]=arr[i];
+            arr[i]= temp;
         }
     }
     for(int i=0;i<N;i++)
-   {printf("%d ",arr[N]);
+   {printf("%d ",arr[i]);
    }
 }
