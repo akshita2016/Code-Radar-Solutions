@@ -9,22 +9,26 @@ int main()
         scanf("%d",&arr[i]);
     }
     int isPrime =0;
-    int count =0;
+    int count =0,num;
     for(int i =0;i<N;i++)
-    {
-        for(int j=2;j<N;j++)
+    { num = arr[i];
+    if(num<2)
+    continue;
+        for(int j=2;j*j<=num;j++)
         {
-            if(arr[i]%j==0)
+            if(num%j==0)
             {
               isPrime =1;
-              count ++;
+              
               break;
             }
         }
+        if(isPrime)
+
+    {count++;
         
-    }
-    if(isPrime)
-    { printf("%d ",&count);
 
     }
+    }
+     printf("%d ",&count);
 }  
