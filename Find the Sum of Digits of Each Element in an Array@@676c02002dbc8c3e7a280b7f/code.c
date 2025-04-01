@@ -16,12 +16,14 @@ int main()
 
     { 
          num =arr[i];
-    r=num%10;
+         while(num>0)
+  {r=num%10;
         sum =sum +r;
         num = num/10;
+  }
     }
     for(int i=0;i<N;i++)
     {
-    printf("%d",sum);
+    printf("%d ",sum);
     }
 }
