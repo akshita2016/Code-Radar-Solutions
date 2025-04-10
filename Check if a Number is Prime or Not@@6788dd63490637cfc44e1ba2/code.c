@@ -3,13 +3,13 @@ int main()
 {
     int num,i,Jasoos;
     scanf("%d",&num);
-    if(num ==2)
-    {
-        printf("Prime");
-        break;
-    }
+    
     for(i=2;i<num;i++)
+    {if(num ==2)
     {
+       Jasoos=0;
+        
+    }
        if(num%i==0)
       { Jasoos=1;
      
