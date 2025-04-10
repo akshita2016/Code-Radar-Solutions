@@ -10,6 +10,7 @@ int main()
       { if(num ==2)
     {
        Jasoos=0;
+       break;
         
     }
         
